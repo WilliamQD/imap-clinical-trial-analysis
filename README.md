@@ -2,7 +2,24 @@
 
 Curated public portfolio version of a BIS 681 clinical biostatistics project analyzing medication-related outcomes and acute health-services utilization in the iMAP randomized trial.
 
+![R](https://img.shields.io/badge/R-statistical_workflow-blue)
+![Clinical trial](https://img.shields.io/badge/Clinical_trial-ITT_analysis-green)
+![Survival analysis](https://img.shields.io/badge/Survival-Cox_PH-purple)
+![Public safe](https://img.shields.io/badge/Public--safe-no_clinical_data-green)
+
+Project context: Yale course final project | BIS 681 | Curated public showcase
+
 This is a no-data showcase repository. It demonstrates the analysis design, statistical workflow, and reporting quality without publishing raw clinical data, cleaned clinical data, participant-level records, protocol files, or private study documents.
+
+## At a Glance
+
+<table>
+  <tr>
+    <td><strong>Study frame</strong><br>Randomized iMAP intervention versus Standard Care among older adults.</td>
+    <td><strong>Analysis focus</strong><br>Medication-related outcomes and acute utilization at 12 months.</td>
+    <td><strong>Public boundary</strong><br>Aggregate results and script templates only; no participant-level data.</td>
+  </tr>
+</table>
 
 ## Overview
 
@@ -16,6 +33,17 @@ The public repo focuses on the reproducible structure of the work:
 - Cox proportional hazards modeling for time to first acute utilization,
 - negative binomial modeling for utilization counts,
 - clear clinical interpretation of treatment effects.
+
+## Analysis Pathway
+
+```mermaid
+flowchart LR
+    A[Trial data dictionary] --> B[Cleaning and QC]
+    B --> C[Baseline Table 1]
+    C --> D[Primary utilization models]
+    D --> E[Competing-risk sensitivity]
+    E --> F[Clinical interpretation]
+```
 
 ## My Contribution
 
