@@ -1,0 +1,28 @@
+__pycache__/
+.Rhistory
+.RData
+.Rproj.user/
+.renv/
+renv/library/
+
+# Never publish clinical data or row-level outputs.
+data/*.csv
+data/*.xlsx
+data/*.rds
+data/*.RData
+data/*.parquet
+data/*.zip
+outputs/
+results/
+tables/*.csv
+figures/*.pdf
+
+# Private docs
+*.docx
+*.pptx
+*.pdf
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
