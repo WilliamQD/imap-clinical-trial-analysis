@@ -34,17 +34,6 @@ The public repo focuses on the reproducible structure of the work:
 - negative binomial modeling for utilization counts,
 - clear clinical interpretation of treatment effects.
 
-## Analysis Pathway
-
-```mermaid
-flowchart LR
-    A[Trial data dictionary] --> B[Cleaning and QC]
-    B --> C[Baseline Table 1]
-    C --> D[Primary utilization models]
-    D --> E[Competing-risk sensitivity]
-    E --> F[Clinical interpretation]
-```
-
 ## My Contribution
 
 I worked on the clinical data-analysis pipeline and public-facing reporting artifacts:
