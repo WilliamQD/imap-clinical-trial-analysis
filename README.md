@@ -11,6 +11,8 @@ Project context: Yale course final project | BIS 681 | Curated public showcase
 
 This is a no-data showcase repository. It demonstrates the analysis design, statistical workflow, and reporting quality without publishing raw clinical data, cleaned clinical data, participant-level records, protocol files, or private study documents.
 
+**Read the deliverables:** [Report](REPORT.md) | [Presentation](PRESENTATION.md)
+
 ## At a Glance
 
 <table>
@@ -72,6 +74,8 @@ Interpretation: iMAP showed a non-significant reduction in the hazard of first a
 ## Repository Structure
 
 ```text
+REPORT.md
+PRESENTATION.md
 src/
   cleaning_pipeline.R       # parameterized cleaning/QC workflow
   table1_workflow.R         # baseline and missingness table workflow
