@@ -22,6 +22,11 @@ figures/*.pdf
 *.pptx
 *.pdf
 
+# Curated public deliverables only.
+!deliverables/
+!deliverables/*.docx
+!deliverables/*.pdf
+
 # OS/editor
 .DS_Store
 Thumbs.db
