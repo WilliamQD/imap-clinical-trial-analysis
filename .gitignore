@@ -22,10 +22,10 @@ figures/*.pdf
 *.pptx
 *.pdf
 
-# Curated public deliverables only.
-!deliverables/
-!deliverables/*.docx
-!deliverables/*.pdf
+# Curated public reports only.
+!reports/
+!reports/*.docx
+!reports/*.pdf
 
 # OS/editor
 .DS_Store

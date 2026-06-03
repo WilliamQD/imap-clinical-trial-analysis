@@ -11,7 +11,7 @@ Project context: Yale course final project | BIS 681 | Curated public showcase
 
 This is a no-data showcase repository. It demonstrates the analysis design, statistical workflow, and reporting quality without publishing raw clinical data, cleaned clinical data, participant-level records, protocol files, or private study documents.
 
-**Read the deliverables:** [Portfolio report](REPORT.md) | [Actual report](deliverables/imap_clinical_trial_report.docx) | [Presentation summary](PRESENTATION.md) | [Actual presentation](deliverables/imap_final_presentation.pdf)
+**Reports:** [Final report](reports/imap_clinical_trial_report.docx) | [Final presentation](reports/imap_final_presentation.pdf)
 
 ## At a Glance
 
@@ -74,9 +74,7 @@ Interpretation: iMAP showed a non-significant reduction in the hazard of first a
 ## Repository Structure
 
 ```text
-REPORT.md
-PRESENTATION.md
-deliverables/
+reports/
   imap_clinical_trial_report.docx
   imap_final_presentation.pdf
 src/
