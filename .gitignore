@@ -24,7 +24,6 @@ figures/*.pdf
 
 # Curated public reports only.
 !reports/
-!reports/*.docx
 !reports/*.pdf
 
 # OS/editor
